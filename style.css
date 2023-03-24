@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin:  0;
+    box-sizing:  border-box;
+}
+
+body{
+    background-color: rgb(210, 246, 246);
+}
+
+#main {
+    width:  40%;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    margin: 40px  10px  0px 150px;
+}
+
+#head{
+    background-color: black;
+    width: 100%;
+    height: 55px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#main input{
+    height: 30px;
+    width: 45%;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+#main label {
+    font-size: 23px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+
+.Btn1{
+     outline: none;
+     border: none;
+     width: 20%;
+     height: 80px;
+     font-size: 22px;
+     background-color:gray ;
+     margin-right: 30px;
+     margin-top:50px;
+}
+
+#result{
+    height :500px;
+    width: 30%;
+    float: left;
+   margin-top: 40px;
+   background-color: white;
+}
+
+#head1,#head2,#head3{
+    background-color: black;
+    width: 100%;
+    
+    height: 45px;
+    color: white;
+    text-align: center;
+
+}
+
+#Total {
+    height: 200px;
+    width: 100%;
+    padding:  20px;
+    background-color: white;
+    font-size :19px;
+    font-weight: 600;
+}
+
+#grade{
+    height: 80px;
+    width: 100%;
+    padding:  20px;
+    background-color: white;
+    font-size :19px;
+    font-weight: 600;
+}
+
+#avg{
+    height: 80px;
+    width: 100%;
+    padding:  20px;
+    background-color: white;
+    font-size :19px;
+    font-weight: 600;
+
+}
