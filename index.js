@@ -7,7 +7,7 @@ var sub3 = parseInt(document.getElementById("phy").value);
 var sub4 = parseInt(document.getElementById("urd").value);
 var sub5 = parseInt(document.getElementById("sci").value);
 
-    if(sub1 > 100  && sub1 <0 ||sub2 > 100  && sub2 <0 || sub3 > 100  && sub3 <0 || sub4 > 100  && sub4 <0 || sub5 > 100  && sub5 <0 ){
+    if(sub1 > 100  || sub1 <0 ||sub2 > 100  || sub2 <0 || sub3 > 100  || sub3 <0 || sub4 > 100  || sub4 <0 || sub5 > 100  || sub5 <0 ){
         alert("Please Enter mark in range of 100")
     }
     else if(sub1<=35 ||sub2<=35  || sub3<=35  || sub4<=35  || sub5<=35 ){
